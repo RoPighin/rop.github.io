@@ -1,9 +1,4 @@
-<?php 
-if (!isset($_COOKIE["count"])) {
-  contadorvisitas();
-  setcookie("count", 'qcyo', time()+1200);
-}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
